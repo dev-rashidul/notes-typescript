@@ -1,0 +1,43 @@
+.notes-form-container {
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.notes-form-title h2 {
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  color: #87008b;
+}
+
+.form-field {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.form-field label {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 7px;
+}
+
+.form-field input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c7c7c7;
+}
+
+.form-field input:focus {
+  outline: 0;
+  border: 1px solid #87008b;
+}
+
+.button-field button {
+  font-size: 15px;
+  color: #ffffff;
+  background: #820089;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+}
